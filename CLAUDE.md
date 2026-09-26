@@ -1,1 +1,0 @@
-@~/.claude/stacks/rust.md
