@@ -31,4 +31,3 @@ For a private repo, disable the SARIF upload in `.github/workflows/gitleaks.yml`
   no deletion/force-push; repo admins bypass.
 - `clippy.toml` — bans `matches!` in production code.
 - `lefthook.yml` — commit-msg + Rust stack jobs from the central dotfiles repo.
-- `CLAUDE.md` — imports the shared Rust stack conventions.
