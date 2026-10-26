@@ -7,7 +7,9 @@ central dotfiles repo.
 
 ## After creating a repo from this template
 
-1. `cargo init` (or add your workspace), replace this README.
+1. `cargo init` (or add your workspace) in the first commit, and replace this README. The gate
+   runs cargo on every commit it lands, so a commit before the workspace exists is refused, a
+   docs-only one included.
 2. Install hooks: `lefthook install`.
 3. Apply the merge policy and ruleset:
 
